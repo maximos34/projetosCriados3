@@ -1,0 +1,185 @@
+.loginscream {
+  display: flex;
+  flex-direction:row;
+  background:var(--whitesmoke);
+}
+
+.wrapper1{
+width: 30%;
+}
+
+.login{
+  background:var(--whitesmoke);
+  margin: 7rem ;
+  margin-bottom: 19.3rem;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leagueimg {
+  width:50%;
+margin-bottom:8rem;
+}
+
+  .logintex{
+    font-size:1.6rem;
+    margin-bottom:3rem;
+  }
+
+.formlogin{
+  display: flex;
+  flex-direction:column;
+}
+
+#iusername{
+width:30rem;
+height:4rem;
+font-size:1.28rem;
+text-align:start;
+color: var(--medium-grey);
+background:var(--light-grey);
+margin-bottom:2rem;
+border: none;
+border-radius:1rem;
+}
+
+#ipassword{
+  width:30rem;
+  height:4rem;
+  font-size:1.28rem;
+  color: var(--medium-grey);
+  background:var(--light-grey);
+  border: none;
+  border-radius:1rem;
+}
+
+.buttons{
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items: center;
+  gap: 1rem;
+  margin-top:4rem;
+  
+}
+
+.facebutton{
+  width:11.3rem;
+  height:3.5rem;
+  background:var(--blue);
+  border:none;
+  border-radius:2rem;
+}
+
+.facebutton>img{
+  width:2rem;
+  height:2rem;
+  position:relative;
+  top:0.5rem;
+  left:4.5rem;
+}
+
+.googlebutton{
+  width:11.3rem;
+  height:3.5rem;
+  background:var(--light-grey);
+  border:none;
+  border-radius:2rem;
+}
+
+
+.googlebutton>img{
+  width:2rem;
+  height:2rem ;
+  position:relative;
+  top:0.5rem;
+  left:4.5rem;
+}
+
+.applebutton{
+  width:11.3rem;
+  height:3.5rem;
+  background:var(--black);
+  border:none;
+  border-radius:2rem;
+}
+
+.applebutton>img{
+  width:2rem;
+  height:2rem ;
+  position:relative;
+  top:0.5rem;
+  left:4.5rem;
+}
+
+.toremember{
+  width: 80%;
+  margin-top:1.5rem;
+  
+}
+
+#iremenber{
+  width: 2rem;
+  height: 2rem;
+  background:var(--light-grey);
+ appearance: none;
+}
+
+.to{
+  font-size:1.5rem;
+  position: relative;
+  bottom: 0.5rem;
+  margin-left:0.8rem;
+}
+
+.loginzone{
+  background:var(--whitesmoke);
+  height:16.2rem;
+  margin: 0 7rem ;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+margin-bottom:7rem;
+}
+
+.icon{
+  width:6rem;
+  height:6rem;
+  border:0.1rem solid var(--light-grey);
+  border-radius:2rem ;
+  margin-bottom:6rem;
+}
+
+.fa-solid{
+  font-size:2rem;
+  position:relative;
+  top:2rem;
+  left:2rem;
+}
+
+.account{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.account>a{
+  font-size:1.28rem;
+  text-decoration: none;
+  color: var(--medium-grey);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.wrapper2 {
+  width: 80%;
+  height:100vh;
+  background: url(../imgs/Login.jpg);
+  background-size: cover;
+  background-position: center;
+}
